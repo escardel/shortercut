@@ -13,3 +13,6 @@ How to use:
 6. Open the Container to access your shortcuts.
 
 This is a very basic program designed to clean up desktop shortcuts. It takes a bit of setup but the result is worth it. This is the first piece of software I've published, it is very crudely written in Visual Basic. I will gladly consider feature updates or bug fixes if they are brought to my attention.
+
+I generated the custom icons with Favicon: 
+https://favicon.io/favicon-generator/ 
