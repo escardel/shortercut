@@ -1,4 +1,4 @@
-# ProgMan is reborn as [ShorterCut](https://www.getshortercut.com/), an open source, no-frills app launcher and desktop organizer.
+# _ProgMan_ is reborn as [ShorterCut](https://www.getshortercut.com/), an open source, no-frills app launcher and desktop organizer.
 
 ShorterCut is a free & lightweight program that provides a minimalist-view alternative to desktop folders.
 
@@ -18,18 +18,22 @@ Window colors and sizes are preserved, and icons for each group are programmatic
   7. Replace the desktop icon (with an ICO file) if you wish via Right-Click -> Properties -> Change Icon
   8. Changes you make to the color and window size will save each time you close
 
+> [!TIP]
+> To transfer groups to a new PC, reinstall your apps (including ShorterCut) and transfer C:\ShorterCut + the desktop group launchers from the original PC. 
+
+### Known issues:
+
+* The default install directory C:\ShorterCut\appdata can't be changed yet without breaking functionality
+* Program may crash when closing many windows at the same time
+* Windows Store Apps are not yet supported (some may work, not fully tested)
+* To add an app from the _**shell:appsfolder**_ Button you must drag to desktop first, then to ShorterCut
+* Dragging a file out of the group is not yet working
+
 > [!NOTE]
 > Apps launch from ShorterCut via single click and the window will auto-close (Start Menu-like behavior).
 > Do not report this as a crash or bug; user preferences to adjust this are in the works.
 
-To add an app from the _**shell:appsfolder**_ Button
-
-Known issues:
-* The default install directory [C:/ShorterCut/appdata] can't be changed  yet without breaking functionality.
-* Program may crash when closing many windows at the same time
-* Windows Store Apps are not yet supported (some may work, not fully tested)
-
 Report bugs and make feature requests to improve ShorterCut.
 
-Generated more custom icons with [Favicon]( using the Lexend Font 
-https://favicon.io/favicon-generator/ 
+Generate more custom icons to match the provided set with [Favicon](https://favicon.io/favicon-generator/ ) using the Lexend Font 
+
