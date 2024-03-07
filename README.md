@@ -1,4 +1,4 @@
-# ProgMan is reborn as ShorterCut, an open source, no-frills app launcher and desktop organizer.
+# ProgMan is reborn as [ShorterCut](https://www.getshortercut.com/), an open source, no-frills app launcher and desktop organizer.
 
 ShorterCut is a free & lightweight program that provides a minimalist-view alternative to desktop folders.
 
