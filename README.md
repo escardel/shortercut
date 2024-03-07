@@ -28,6 +28,7 @@ Window colors and sizes are preserved, and icons for each group are programmatic
 * Windows Store Apps are not yet supported (some may work, not fully tested)
 * To add an app from the _**shell:appsfolder**_ Button you must drag to desktop first, then to ShorterCut
 * Dragging a file out of the group is not yet working
+* Can't yet launch programs that require UAC Elevation 
 
 > [!NOTE]
 > Apps launch from ShorterCut via single click and the window will auto-close (Start Menu-like behavior).
