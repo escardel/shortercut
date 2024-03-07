@@ -1,18 +1,35 @@
-![Shortcutter](https://github.com/escardel/shortcutter/assets/39771493/9beba108-8bf0-4204-9676-b7d1a7ac3025)
+# ProgMan is reborn as ShorterCut, an open source, no-frills app launcher and desktop organizer.
 
-**Shortcutter is an alternative to File Explorer to view files; specifically application shortcuts.**
+ShorterCut is a free & lightweight program that provides a minimalist-view alternative to desktop folders.
 
-This software allows the user to customize the window color, size, and target folder of shortcut "Containers" to clean up the desktop.
-How to use:
+![Screenshot 2024-03-06 131232](https://github.com/escardel/shortercut/assets/39771493/68b130b8-566b-4220-a4f5-bf3745fa025d)
 
-1. Organize your shortcuts by placing them into custom-named folders in C:\Program Shortcuts (or your preferred location).
-2. Open the program and select the target folder using the ...\ button.
-3. Click the Save arrow button to open a prompt to change the window color.
-4. After a color is selected, a the view settings are saved in C:\Program Shortcuts\Saved Views and a Container shortcut is added to the desktop with the selected target folder name.
-5. Right-click the Container file on the desktop and select Properties --> Change Icon and use select a custom icon from Windows or any ICO file you have saved.
-6. Open the Container to access your shortcuts.
+Window colors and sizes are preserved, and icons for each group are programmatically assigned and added to the Desktop. 
 
-This is a very basic program designed to clean up desktop shortcuts. It takes a bit of setup but the result is worth it. This is the first piece of software I've published, it is very crudely written in Visual Basic. I will gladly consider feature updates or bug fixes if they are brought to my attention.
+<p align="center"><img src="https://github.com/escardel/shortercut/assets/39771493/4e6e0335-46e9-43e2-985b-e517a0579073"</p>
 
-I generated the custom icons with Favicon: 
+### How to use:
+
+  1. Create a group name with Group Manager
+  2. Add shortcuts via drag & drop or [+] button to search Start directory
+  3. Hover over an icon and press "delete" on your keyboard to remove a shortcut
+  4. Double click the lower panel to adjust the color
+  6. Adjust the window size to your preference
+  7. Replace the desktop icon (with an ICO file) if you wish via Right-Click -> Properties -> Change Icon
+  8. Changes you make to the color and window size will save each time you close
+
+> [!NOTE]
+> Apps launch from ShorterCut via single click and the window will auto-close (Start Menu-like behavior).
+> Do not report this as a crash or bug; user preferences to adjust this are in the works.
+
+To add an app from the _**shell:appsfolder**_ Button
+
+Known issues:
+* The default install directory [C:/ShorterCut/appdata] can't be changed  yet without breaking functionality.
+* Program may crash when closing many windows at the same time
+* Windows Store Apps are not yet supported (some may work, not fully tested)
+
+Report bugs and make feature requests to improve ShorterCut.
+
+Generated more custom icons with [Favicon]( using the Lexend Font 
 https://favicon.io/favicon-generator/ 
