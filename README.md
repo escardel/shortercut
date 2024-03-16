@@ -8,6 +8,8 @@ Window colors and sizes are preserved, and icons for each group are programmatic
 
 <p align="center"><img src="https://github.com/escardel/shortercut/assets/39771493/4e6e0335-46e9-43e2-985b-e517a0579073"</p>
 
+[Download ShorterCut.exe](https://master.dl.sourceforge.net/project/shortercut/ShorterCut%20Setup.exe?viasf=1)
+
 ### How to use:
 
   1. Create a group name with Group Manager
